@@ -3,7 +3,6 @@ Discord AI Bot
 ABOUT:
 A Python based Discord bot that leverages the OpenRouter API for AI-generated responses.
 
-
 Features:
 - Specified user memory
 - Channel lock/unlock setup
@@ -16,15 +15,15 @@ PROJECT FILES:
 
 SETUP INSTRUCTIONS:
 
-STEP 1: Edit `config.json`
+STEP 1: Edit config.json
 
-Open the `config.json` file and update the following:
-- `"api_key"`: Replace with your OpenRouter API key (line 2)
-- `"system_context"`: Customize the assistant personality (line 4)
-- `"error_message"`: Change the fallback message shown on error (line 5)
+Open the "config.json" file and update the following:
+- "api_key": Replace with your OpenRouter API key (line 2)
+- "system_context": Customize the assistant personality (line 4)
+- "error_message": Change the fallback message shown on error (line 5)
 
-STEP 2: Edit `bot.py`
-- At the bottom, replace `<YOUR_BOT_TOKEN>` with your Bot Token.
+STEP 2: Edit bot.py
+- At the bottom, replace <YOUR_BOT_TOKEN> with your Bot Token.
 
 STATUS : (bot.py line 35-36) 
 - status=discord.Status.online #Options: online, idle, dnd, invisible
