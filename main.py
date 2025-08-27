@@ -60,10 +60,11 @@ async def unsetup(ctx):
 @bot.command(name="help")
 async def custom_help(ctx):
     help_text = "Bot CMDS:\n" \
-                "`/help` - show help message" \
+                "\n" \
+                "`/help` - show help message\n" \
                 "`/setup` - setup bot in a channel\n" \
                 "`/unsetup` - remove setup channel\n" \
-                "`/clearmemory` - clears memory\n"   
+                "`/clearmemory` - clears memory"   
     await ctx.send(help_text)
 
 @bot.command(name="clearmemory")
